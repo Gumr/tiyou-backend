@@ -1,0 +1,51 @@
+{
+  "name": "sysadmin",
+  "version": "1.0.0",
+  "description": "webpack3-vue2脚手架 Created By 201809",
+  "author": "zhousir",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.conf.js",
+    "build2": "cross-env NODE_ENV=development webpack --config config/webpack.dev.conf.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.dev.conf.js"
+  },
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-ueditor-wrap": "^2.4.1"
+  },
+  "devDependencies": {
+    "ajv": "^6.0.0",
+    "autoprefixer": "^9.0.1",
+    "cross-env": "^5.2.0",
+    "glob": "^7.1.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.8.0",
+    "less-loader": "^4.1.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "postcss": "^6.0.15",
+    "postcss-loader": "^2.0.8",
+    "css-loader": "^0.28.10",
+    "style-loader": "^0.21.0",
+    "url-loader": "^0.6.2",
+    "file-loader": "^1.1.11",
+    "vue-loader": "^15.2.6",
+    "vue-style-loader": "^4.1.1",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.3",
+    "webpack-merge": "^4.1.3"
+  }
+}

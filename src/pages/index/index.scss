@@ -1,0 +1,10 @@
+.index {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 750px;
+    &.bg {
+        background-size: cover;
+        background-image: url("./img/bg.jpg");
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>主题管理</title>
+    <%= require('components/layout/heade-link.html') %>
+</head>
+
+<body class="page-container-bg-solid page-header-fixed page-sidebar-closed-hide-logo page-footer-fixed">
+    <div id="app" name="authorization">
+        <app-header></app-header>
+        <div class="clearfix"></div>
+        <div class="page-container">
+            <app-menu></app-menu>
+            <div class="page-content-wrapper">
+                <div class="page-content">
+                    <app-breadcrumb></app-breadcrumb>
+                    <!-- BEGIN PAGE CONTENT -->
+                    <data-list></data-list>
+                    <!-- END PAGE CONTENT -->
+                </div>
+            </div>
+        </div>
+        <app-footer></app-footer>
+
+        <edit-modal></edit-modal>
+    </div>
+
+    <%= require('components/layout/footer-script.html') %>
+
+    <script type="text/javascript" src="/assets/global/plugins/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="/assets/global/plugins/ueditor/ueditor.all.min.js"></script>
+</body>
+
+</html>

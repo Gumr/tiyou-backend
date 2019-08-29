@@ -1,0 +1,42 @@
+// 列表条件搜索框样式修改
+.flex_group {
+    display: flex;
+    margin: 0;
+}
+.flex_content {
+    display: flex;
+    margin-right: 30px!important;
+    margin-left: 0px!important;
+}
+.lable_title_name {
+    padding-right: 10px!important;
+}
+.range_container {
+    display:flex;
+    align-items:center;
+}
+.range_content {
+    width: 100px;
+}
+.margin_right {
+    margin-right: 10px;
+}
+
+// 提示框样式修改
+.modal-dialog{
+    margin: 0 auto!important;
+}
+
+//modal弹窗row样式更改margin值
+.row_margin {
+    margin: 0 30px!important;
+}
+
+//富文本多图上传、表情、视频等二次弹窗层级需大于modal弹窗10051的层级
+#edui_fixedlayer {
+    z-index: 10052!important;
+}
+//列表搜索select下拉框最大宽度
+.select_max_width {
+    max-width: 150px!important;
+}
